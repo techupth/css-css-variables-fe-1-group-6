@@ -4,4 +4,39 @@
   margin: 0;
 }
 
-/* Start coding here */
+:root {
+
+  /*color*/
+
+  --branding : #ff7f50;
+  --secondary : cornsilk;
+  --highlight : #d2691e;
+  --muted : #a9a9a9;
+
+  /*box-size*/
+
+  --level1 : 1px;
+  --level2 : 5px;
+  --level3 : 10px;
+  --level4 : 15px;
+  --level5 : 20px;
+
+  /*font-size*/
+
+  --small : 12px;
+  --medium : 16px;
+  --large : 20px;
+  --extraLarge : 30px;
+  --DoubleExtraLarge : 50px;
+  --tripleExtraLarge : 100px;
+}
+
+.introduction {
+  background-color: var(--secondary);
+  padding: var(--level5);
+}
+
+.introduction h1 {
+  color: var(--branding);
+  font-size: var(--tripleExtraLarge);
+}
